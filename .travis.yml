@@ -6,7 +6,7 @@ node_js:
   - "9.4.0"
 
 install:
-  - npm
+  - npm install
 
 script:
   - vuepress build
