@@ -6,10 +6,10 @@ node_js:
   - "10.2.1"
 
 install:
-  - npm
+  - npm 
 
 script:
-  - vuepress build docs
+  - vuepress build
 
 after_success: |
   if [ -n "$GITHUB_API_KEY" ]; then
