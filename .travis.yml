@@ -9,7 +9,7 @@ install:
   - npm install
 
 script:
-  - vuepress build
+  - vuepress build docs
 
 after_success: |
   if [ -n "$GITHUB_API_KEY" ]; then

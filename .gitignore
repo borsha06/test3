@@ -1,2 +1,4 @@
-node_modules
-
+node_modules/
+.vuepress/dist/
+yarn.lock
+package-lock.json
