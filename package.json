@@ -4,11 +4,11 @@
   "description": "The simplicity of this high quality documentation system is the beauty of VuePress.",
   "main": "index.js",
   "directories": {
-    "doc": "docs"
+    "doc": "docs/.vuepress/dist"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"docs:dev": "vuepress dev docs",
+    "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   },
   "repository": {
