@@ -1,7 +1,7 @@
 module.exports = {
     title: 'Vuepress',
     description: 'Exploring VuePress in easy words',
-	base:"/test/",
+	base:"/test3/",
 	dest:'./docs/.vuepress/dist'
     
 };
